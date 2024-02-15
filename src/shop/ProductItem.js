@@ -4,7 +4,7 @@ const products = [
       name: "Iphone 12 Pro",
       brand: "Apple",
       desc: "128Gb , 6.1-inch display",
-      price: 699,
+      price: 1099,
       image:
         "https://ik.imagekit.io/satzz/ecommerce/iphone-12-pro.jpg?updatedAt=1690880027740",
       __v: 0,
@@ -14,7 +14,7 @@ const products = [
       name: "Iphone 12 Mini",
       brand: "Apple",
       desc: "128Gb , 5.3-inch display",
-      price: 599,
+      price: 1099,
       image:
         "https://ik.imagekit.io/satzz/ecommerce/iphone-12-mini.jpg?updatedAt=1690880027814",
       __v: 0,
