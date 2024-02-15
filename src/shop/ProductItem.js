@@ -92,3 +92,9 @@ const products = [
   ];
 
   export default products
+
+
+  // statefull component = class
+  // stateless component = fun
+
+  // hooks = func ->state

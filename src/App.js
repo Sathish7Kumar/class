@@ -6,6 +6,7 @@
 
 import ProductDisplay from "./shop/ProductDisplay"
 import './App.css'
+import State from "./state/State"
 
 
 const App = () => {
@@ -19,7 +20,8 @@ const App = () => {
       </Routes>
     </BrowserRouter> */}
     <>
-    <ProductDisplay/>
+    {/* <ProductDisplay/> */}
+    <State/>
     </>
     </>
   )
