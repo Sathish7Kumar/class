@@ -1,0 +1,8 @@
+.cart{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
