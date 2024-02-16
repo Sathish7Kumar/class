@@ -7,7 +7,7 @@ const ProductItem = ({name,img,id}) => {
     <>
     <div 
     onClick={()=>{
-        nav('/products' + id)
+        nav('/products/' + id)
     }}
     style={{cursor:"pointer"}}>
         <h2>{name}</h2>
