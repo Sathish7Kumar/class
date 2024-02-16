@@ -1,5 +1,5 @@
 // import React from 'react'
-// import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 // import Cart from './pages/Cart'
 // import Homepage from './pages/Homepage'
 // import Mobile from './pages/Mobile'
@@ -7,6 +7,9 @@
 import ProductDisplay from "./shop/ProductDisplay"
 import './App.css'
 import State from "./state/State"
+import Home from "./mobile/Home"
+import Products from './mobile/Products'
+import ProductDetails from './mobile/ProductDetails'
 
 
 const App = () => {
@@ -21,8 +24,15 @@ const App = () => {
     </BrowserRouter> */}
     <>
     {/* <ProductDisplay/> */}
-    <State/>
+    {/* <State/> */}
     </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/products' element={<Products/>} />
+        <Route path='/products/:id' element={<ProductDetails/>} />
+      </Routes>
+    </Router>
     </>
   )
 }
