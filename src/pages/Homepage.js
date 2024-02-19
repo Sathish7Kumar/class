@@ -13,7 +13,6 @@ const Homepage = () => {
     <h1>HOMEPAGE</h1>
     <Link to="/mobiles">Mobiles</Link> <br />
     <Link to="/cart">Cart</Link>
-
     {/* <button onClick={cartPage} >CART</button> */}
 
     </>

@@ -6,19 +6,19 @@ class Lifecycle extends React.Component{
         this.state = {
             count : 0
         }
-        // console.log("Component being Construct");
+        console.log("Component being Construct");
     }
     componentDidMount(){
         console.log("Component mounted");
     }
 
     componentDidUpdate(){
-        console.log("Component update & Rendered");
+        console.log("Component update & Re-rendered");
     }
 
-    componentWillUnmount(){
-        console.log("Component Unmount");
-    }
+    // componentWillUnmount(){
+    //     console.log("Component Unmount");
+    // }
 
     increment = ()=>{
         this.setState((val)=>({
@@ -35,7 +35,7 @@ class Lifecycle extends React.Component{
     render(){
         console.log("Component rendered ");
         return(
-            <>
+            <> 
             <div>
                 <p>Count : {this.state.count}</p>
                 <button onClick={this.increment}>ADD</button>

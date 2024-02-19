@@ -18,3 +18,7 @@ const ProductItem = ({name,img,id}) => {
 }
 
 export default ProductItem
+
+// react -> class func props state lifecycle react-router-dom
+// dummy data - map 
+// hooks -> useState ,
