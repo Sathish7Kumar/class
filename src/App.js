@@ -12,7 +12,8 @@ import Products from './mobile/Products'
 import ProductDetails from './mobile/ProductDetails'
 import Lifecycle from './pages/LifeCycle'
 import Effect from './Effect/Effect'
-import Reducer from './Reducer'
+import Reducer from './Reducer/Reducer'
+import HomeContext from './Context/HomeContext'
 
 
 const App = () => {
@@ -27,18 +28,19 @@ const App = () => {
     </BrowserRouter> */}
     <>
     {/* <ProductDisplay/> */}
-    <Reducer/>
-    <State/>
+    {/* <Reducer/>
+    <State/> */}
     </>
-    <Router>
+    {/* <Router>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/products' element={<Products/>} />
         <Route path='/products/:id' element={<ProductDetails/>} />
       </Routes>
-    </Router>
-    <Lifecycle/>
-    <Effect/>
+    </Router> */}
+    {/* <Lifecycle/>
+    <Effect/> */}
+    <HomeContext/>
     </>
   )
 }
