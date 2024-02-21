@@ -14,7 +14,8 @@ import Lifecycle from './pages/LifeCycle'
 import Effect from './Effect/Effect'
 import Reducer from './Reducer/Reducer'
 import HomeContext from './Context/HomeContext'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from './Navigation/Nav'
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
     {/* <Lifecycle/>
     <Effect/> */}
     <HomeContext/>
+    <Nav/>
     </>
   )
 }
