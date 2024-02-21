@@ -15,7 +15,8 @@ import Effect from './Effect/Effect'
 import Reducer from './Reducer/Reducer'
 import HomeContext from './Context/HomeContext'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from './Navigation/Nav'
+import Nav from './Navigation/Navigation'
+import Navigation from './Navigation/Navigation'
 
 const App = () => {
   return (
@@ -41,8 +42,8 @@ const App = () => {
     </Router> */}
     {/* <Lifecycle/>
     <Effect/> */}
+    <Navigation/>
     <HomeContext/>
-    <Nav/>
     </>
   )
 }
