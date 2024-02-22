@@ -40,10 +40,11 @@
   
 
 import React, { createContext, useContext, useState } from 'react'
+import Home1 from './Home1'
 
 // useContext  - {create -> provider}
 
-const UserContext = createContext()
+ export const UserContext = createContext()
 
 const HomeContext = () => {
     const [myname, setmyname] = useState("VENKAT")
@@ -57,32 +58,32 @@ const HomeContext = () => {
 
 export default HomeContext
 
-const Home1 = () => {
-    return (
-      <>
-      <h1>Hello - 1 </h1>
-      <Home2/>
-      </>
-    )
-  }
+// const Home1 = () => {
+//     return (
+//       <>
+//       <h1>Hello - 1 </h1>
+//       <Home2/>
+//       </>
+//     )
+//   }
 
-  const Home2 = () => {
-    return (
-      <>
-      <h1>Hello - 2</h1>
-      <Home3/>
-      </>
-    )
-  }
+//   const Home2 = () => {
+//     return (
+//       <>
+//       <h1>Hello - 2</h1>
+//       <Home3/>
+//       </>
+//     )
+//   }
 
-  const Home3 = () => {
-    const username = useContext(UserContext)
-    return (
-      <>
-      <h1>Hello My name is {username}</h1>
-      </>
-    )
-  }
+//   const Home3 = () => {
+//     const username = useContext(UserContext)
+//     return (
+//       <>
+//       <h1>Hello My name is {username}</h1>
+//       </>
+//     )
+//   }
 
   
   

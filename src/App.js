@@ -17,6 +17,8 @@ import HomeContext from './Context/HomeContext'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './Navigation/Navigation'
 import Navigation from './Navigation/Navigation'
+import Vote from './condition/Vote'
+import Login from './condition/Login'
 
 const App = () => {
   return (
@@ -42,8 +44,10 @@ const App = () => {
     </Router> */}
     {/* <Lifecycle/>
     <Effect/> */}
-    <Navigation/>
-    <HomeContext/>
+    {/* <HomeContext/> */}
+    {/* <Navigation/>
+    <Vote/> */}
+    <Login/>
     </>
   )
 }
