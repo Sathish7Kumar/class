@@ -25,7 +25,6 @@ const Login = () => {
             <h2>Welcome {username}
             <br /> <button>Logout</button> <br />
             </h2>
-            <Vote/>
         </div>
         </> : 
         <>

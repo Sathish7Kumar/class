@@ -33,3 +33,4 @@ export default Vote;
 //     console.log("Not able oto vote");
 // }
 // console.log( (age>=18) ? "vote" : "not able to vote");
+

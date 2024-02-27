@@ -1,5 +1,5 @@
 // import React from 'react'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, BrowserRouter} from 'react-router-dom'
 // import Cart from './pages/Cart'
 // import Homepage from './pages/Homepage'
 // import Mobile from './pages/Mobile'
@@ -14,11 +14,14 @@ import Lifecycle from './pages/LifeCycle'
 import Effect from './Effect/Effect'
 import Reducer from './Reducer/Reducer'
 import HomeContext from './Context/HomeContext'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './Navigation/Navigation'
 import Navigation from './Navigation/Navigation'
 import Vote from './condition/Vote'
 import Login from './condition/Login'
+import Formvalidation from './Form/Formvalidation'
+import NavigationBar from './NAV/NavigationBar'
+import Homepage2 from './Navigation/Homepage2'
 
 const App = () => {
   return (
@@ -47,7 +50,19 @@ const App = () => {
     {/* <HomeContext/> */}
     {/* <Navigation/>
     <Vote/> */}
-    <Login/>
+    {/* <Login/> */}
+    {/* <NavigationBar/>  
+    <Formvalidation/> */}
+    <BrowserRouter>
+    <NavigationBar/>
+    <Routes>
+      <Route path='/' element={<Homepage2/>} />
+      <Route path='/state' element={<State/>} />
+      <Route path='/vote' element={<Vote/>} />
+      <Route path='/login' element={<Login/>} />
+      <Route path='/signin' element={<Formvalidation/>} />
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }
