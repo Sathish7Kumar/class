@@ -22,6 +22,8 @@ import Login from './condition/Login'
 import Formvalidation from './Form/Formvalidation'
 import NavigationBar from './NAV/NavigationBar'
 import Homepage2 from './Navigation/Homepage2'
+import Memo from './Memo/Memo'
+import Popup from './Popup/Popup'
 
 const App = () => {
   return (
@@ -61,6 +63,8 @@ const App = () => {
       <Route path='/vote' element={<Vote/>} />
       <Route path='/login' element={<Login/>} />
       <Route path='/signin' element={<Formvalidation/>} />
+      <Route path='/memo' element={<Memo/>} />
+      <Route path='/popup' element={<Popup/>} />
     </Routes>
     </BrowserRouter>
     </>

@@ -40,6 +40,12 @@ const NavigationBar = () => {
           <Link to='/login'>Login</Link>
           </li>
           <li>
+          <Link to='/memo'>Memo</Link>
+          </li>
+          <li>
+          <Link to='/popup'>Popup</Link>
+          </li>
+          <li>
           <Link to='/signin'>Form</Link>
           </li>
           <li>
