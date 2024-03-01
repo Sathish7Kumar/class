@@ -43,6 +43,12 @@ const NavigationBar = () => {
           <Link to='/memo'>Memo</Link>
           </li>
           <li>
+          <Link to='/callback'>Callback</Link>
+          </li>
+          <li>
+          <Link to='/ref'>Ref</Link>
+          </li>
+          <li>
           <Link to='/popup'>Popup</Link>
           </li>
           <li>

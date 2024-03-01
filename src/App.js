@@ -24,6 +24,8 @@ import NavigationBar from './NAV/NavigationBar'
 import Homepage2 from './Navigation/Homepage2'
 import Memo from './Memo/Memo'
 import Popup from './Popup/Popup'
+import Callback from './Callback/Callback'
+import Ref from './Ref/Ref'
 
 const App = () => {
   return (
@@ -64,6 +66,8 @@ const App = () => {
       <Route path='/login' element={<Login/>} />
       <Route path='/signin' element={<Formvalidation/>} />
       <Route path='/memo' element={<Memo/>} />
+      <Route path='/callback' element={<Callback/>} />
+      <Route path='/ref' element={<Ref/>} />
       <Route path='/popup' element={<Popup/>} />
     </Routes>
     </BrowserRouter>
