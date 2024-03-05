@@ -7,6 +7,8 @@ import "./App.css";
 import Payment from "./food/Payment";
 
 const App2 = () => {
+  
+
   const [cartItems, setcartItems] = useState([]);
 
   const addCart = (item) => {
